@@ -30,9 +30,9 @@ public class Medic {
 	@Column(name = "dui", nullable = false, length = 9)
 	private String dui;
 
-	@Size(min = 8, max = 8, message = "{address.size}")
-	@Column(name = "address", nullable = false, length = 8)
-	private String address;
+	@Size(min = 8, max = 8, message = "{phone.size}")
+	@Column(name = "phone", nullable = false, length = 8)
+	private String phone;
 	
 	@Email
 	@Size(message = "{email.size")
